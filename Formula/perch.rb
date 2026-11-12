@@ -5,23 +5,23 @@ class Perch < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/brzzdev/perch/releases/download/v2.9.0/perch-aarch64-apple-darwin.tar.gz"
-      sha256 "1cb2048013c143683dda89ddd4f4fec0aaf4d07b44393b31cda5f1c43ae10e74"
+      url "https://github.com/brzzdev/perch/releases/download/v2.9.1/perch-aarch64-apple-darwin.tar.gz"
+      sha256 "a3cc5b093fad6dc260f7bb44057e4cde4ce43fae088d8e2a4e5f0855465a9acf"
     end
     on_intel do
-      url "https://github.com/brzzdev/perch/releases/download/v2.9.0/perch-x86_64-apple-darwin.tar.gz"
-      sha256 "b1c15eb5913cdd435864ce08db7925dd454e071a38dc0dbe5331423cced054a1"
+      url "https://github.com/brzzdev/perch/releases/download/v2.9.1/perch-x86_64-apple-darwin.tar.gz"
+      sha256 "e37f3a5e11d4dee6a89cc918a8bbbb93babbc6142dff1ab3ad4a15da2bad3315"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/brzzdev/perch/releases/download/v2.9.0/perch-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "6523e27b5d3c9a87f4eda887872179ae7b7951184994bc6ec28aca8b1b27a3ce"
+      url "https://github.com/brzzdev/perch/releases/download/v2.9.1/perch-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "a8fe6f7f8398897ea0758128e355c8d67142f50a85dccb90ba410a3880e762b1"
     end
     on_intel do
-      url "https://github.com/brzzdev/perch/releases/download/v2.9.0/perch-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "c4af0aa4c9bd8136604cb6095f42c5d9b9286ba217f8471f44fbc3f5e8fbb268"
+      url "https://github.com/brzzdev/perch/releases/download/v2.9.1/perch-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "babf04fd3748cbd3d13f01f41e97c4e53f58197d258f265a9476944eb8063352"
     end
   end
 
